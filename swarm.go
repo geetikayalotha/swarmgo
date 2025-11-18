@@ -514,8 +514,7 @@ func (s *Swarm) handleToolCalls(
 		}
 
 		// Parse arguments for the result
-		var args interface{}
-		_ = json.Unmarshal([]byte(toolCall.Function.Arguments), &args)
+		args := parseToolArguments(toolCall.Function.Name, toolCall.Function.Arguments)
 
 		// Record the tool result
 		toolResults = append(toolResults, ToolResult{
@@ -796,8 +795,7 @@ func (s *Swarm) handleToolCallsParallel(
 
 			// Get the original tool call
 			toolCall := toolCalls[result.index]
-			var args interface{}
-			_ = json.Unmarshal([]byte(toolCall.Function.Arguments), &args)
+			args := parseToolArguments(toolCall.Function.Name, toolCall.Function.Arguments)
 
 			// Add to tool results
 			toolResults = append(toolResults, ToolResult{
