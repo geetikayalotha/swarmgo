@@ -489,3 +489,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Thanks to OpenAI for the inspiration and the [Swarm framework](https://github.com/openai/swarm).
 - Thanks to [Sashabaranov](https://github.com/sashabaranov) for the [go-openai](https://github.com/sashabaranov/go-openai) package.
+
+## Development
+
+`make test` runs the module suite (the tool-argument parser has table tests). CI runs `go vet` and
+`go test ./...` on every push.
