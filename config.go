@@ -1,5 +1,7 @@
 package swarmgo
 
+// config.go holds the config part of the public surface; see the README for the call flow.
+
 import (
 	"net/http"
 

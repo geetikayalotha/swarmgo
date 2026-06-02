@@ -1,5 +1,7 @@
 package swarmgo
 
+// memory.go holds the memory part of the public surface; see the README for the call flow.
+
 import (
 	"encoding/json"
 	"sync"

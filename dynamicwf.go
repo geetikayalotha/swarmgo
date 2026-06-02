@@ -1,5 +1,7 @@
 package swarmgo
 
+// dynamicwf.go holds the dynamicwf part of the public surface; see the README for the call flow.
+
 import (
 	"context"
 	"encoding/json"

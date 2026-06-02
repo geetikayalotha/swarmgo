@@ -1,5 +1,7 @@
 package swarmgo
 
+// concurrent.go holds the concurrent part of the public surface; see the README for the call flow.
+
 import (
 	"context"
 	"sync"

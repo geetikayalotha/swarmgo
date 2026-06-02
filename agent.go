@@ -1,5 +1,7 @@
 package swarmgo
 
+// agent.go holds the agent part of the public surface; see the README for the call flow.
+
 import (
 	"github.com/prathyushnallamothu/swarmgo/llm"
 )

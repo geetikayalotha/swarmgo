@@ -1,5 +1,7 @@
 package swarmgo
 
+// demoloop.go holds the demoloop part of the public surface; see the README for the call flow.
+
 import (
 	"bufio"
 	"context"
