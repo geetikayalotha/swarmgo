@@ -494,3 +494,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 `make test` runs the module suite (the tool-argument parser has table tests). CI runs `go vet` and
 `go test ./...` on every push.
+
+Tool-result semantics are documented in `docs/TOOLS.md`.
