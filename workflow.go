@@ -1,5 +1,7 @@
 package swarmgo
 
+// workflow.go keeps the workflow concerns of the swarm runtime in one place.
+
 import (
 	"context"
 	"crypto/sha256"

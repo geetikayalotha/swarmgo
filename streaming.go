@@ -1,5 +1,7 @@
 package swarmgo
 
+// streaming.go keeps the streaming concerns of the swarm runtime in one place.
+
 import (
 	"context"
 	"encoding/json"

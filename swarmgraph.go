@@ -1,5 +1,7 @@
 package swarmgo
 
+// swarmgraph.go keeps the swarmgraph concerns of the swarm runtime in one place.
+
 import (
 	"context"
 	"encoding/json"
