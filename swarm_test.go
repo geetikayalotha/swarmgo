@@ -1,5 +1,7 @@
 package swarmgo
 
+// swarm_test.go keeps the swarm_test concerns of the swarm runtime in one place.
+
 import (
 	"bytes"
 	"context"

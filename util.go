@@ -1,5 +1,7 @@
 package swarmgo
 
+// util.go keeps the util concerns of the swarm runtime in one place.
+
 import (
 	"fmt"
 )

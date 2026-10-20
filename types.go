@@ -1,5 +1,7 @@
 package swarmgo
 
+// types.go keeps the types concerns of the swarm runtime in one place.
+
 import (
 	"github.com/prathyushnallamothu/swarmgo/llm"
 )
